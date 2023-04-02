@@ -20,5 +20,8 @@ tasks:
     - checkout    
     - commands:
       - |
-        sonar-scanner.bat -D"sonar.projectKey=rails-ruby" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000"       
-
+        sonar-scanner \
+         -Dsonar.projectKey=rails-ruby \
+         -Dsonar.sources=. \
+         -Dsonar.host.url=http://localhost:9000 \
+         -Dsonar.login=sqp_f52fea16bafedcc5f0f24bca210e315b210629d9  
