@@ -7,8 +7,4 @@ tasks:
     - checkout    
     - commands:
       - |
-       sonar-scanner \
-        -Dsonar.projectKey=rails-ruby \
-        -Dsonar.sources=. \
-        -Dsonar.host.url=http://65.2.9.93:9000 \
-        -Dsonar.login=05eb97d989880ebb3cd970186c4db2e2ba1e132b    
+       sonar-scanner.bat -D"sonar.projectKey=rails-ruby" -D"sonar.sources=." -D"sonar.host.url=http://localhost:9000"
