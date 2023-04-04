@@ -10,5 +10,7 @@ tasks:
        sonar-scanner \
          -Dsonar.projectKey=rails-ruby \
          -Dsonar.sources=. \
-         -Dsonar.host.url=http://localhost:9000 \
-         -Dsonar.login=sqp_f52fea16bafedcc5f0f24bca210e315b210629d9  
+         -Dsonar.host.url=https://b520-49-249-225-158.in.ngrok.io \
+         -Dsonar.login=673f2eaac60ccc1201f5ba77c0e929e7946a819b  
+         
+         
